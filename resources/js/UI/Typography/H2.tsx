@@ -2,7 +2,7 @@ import React, {memo} from 'react';
 import {ITypographyElement} from "./types.tsx";
 import {twMerge} from "tailwind-merge";
 
-export const H1: React.FC<ITypographyElement> = memo(({
+export const H2: React.FC<ITypographyElement> = memo(({
                                                           children,
                                                           className,
                                                           ...props
@@ -11,7 +11,7 @@ export const H1: React.FC<ITypographyElement> = memo(({
     return (
         <h1
             className={twMerge(
-                "text-4xl text-gray-800 font-extrabold sm:text-5xl",
+                "text-3xl text-gray-800 font-bold sm:text-4xl",
                 className
             )}
             {...props}
