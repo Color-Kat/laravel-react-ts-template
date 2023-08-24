@@ -31,8 +31,8 @@ const FaqsCard = ({faqsList}: {faqsList: {question: string, answer: string}}) =>
                 {faqsList.question}
                 {
                     isOpen
-                        ? <BsDashLg className="h-5 w-5 text-gray-600 ml-2"/>
-                        : <BsPlusLg className="h-5 w-5 text-gray-600 ml-2"/>
+                        ? <BsDashLg className="h-7 w-7 text-gray-600 ml-2 shrink-0"/>
+                        : <BsPlusLg className="h-7 w-7 text-gray-600 ml-2 shrink-0"/>
 
                 }
             </h4>

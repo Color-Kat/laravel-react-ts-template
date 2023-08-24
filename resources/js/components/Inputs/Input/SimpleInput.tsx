@@ -17,6 +17,8 @@ export const SimpleInput: React.FC<SimpleInputProps> = ({
                                                       ...props
                                                   }) => {
 
+
+
     const changeHandler = onChange
         ? onChange
         : useCallback(
