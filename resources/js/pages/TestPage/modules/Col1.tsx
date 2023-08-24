@@ -25,7 +25,7 @@ export const Col1: React.FC<Col1Props> = memo(({}) => {
         <div className="flex items-center justify-center flex-col gap-8">
 
             <div className="flex items-center justify-evenly w-full">
-                <RainbowLoader/>
+                <RainbowLoader />
 
                 <AcrobaticLoader />
             </div>

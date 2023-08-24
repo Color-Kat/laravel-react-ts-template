@@ -1,12 +1,16 @@
 import React, {memo} from 'react';
+import {twJoin} from "tailwind-merge";
+import {LoaderProps} from "@UI/Loaders/types.ts";
 
-interface AcrobaticLoaderProps {
-
-}
-
-export const AcrobaticLoader: React.FC<AcrobaticLoaderProps> = memo(({}) => {
+export const AcrobaticLoader: React.FC<LoaderProps> = memo(({className}) => {
     return (
-        <svg className="acrobatic-loader" viewBox="0 0 128 256" width="128px" height="256px" xmlns="http://www.w3.org/2000/svg">
+        <svg
+            className={twJoin("acrobatic-loader", className)}
+            viewBox="0 0 128 256"
+            width="128px"
+            height="256px"
+            xmlns="http://www.w3.org/2000/svg"
+        >
             <defs>
                 <linearGradient id="acrobatic-loader-grad1" x1="0" y1="0" x2="0" y2="1">
                     <stop offset="0%" stopColor="hsl(223,90%,55%)"/>
