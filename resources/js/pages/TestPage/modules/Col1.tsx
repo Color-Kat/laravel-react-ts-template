@@ -1,5 +1,5 @@
 import React, {memo, useCallback, useState} from 'react';
-import {RainbowLoader} from "@UI/Loaders";
+import {AcrobaticLoader, RainbowLoader} from "@UI/Loaders";
 import {Button, LoadingButton, RippleButton} from "@components/Buttons";
 import {
     BlueButton,
@@ -24,7 +24,11 @@ export const Col1: React.FC<Col1Props> = memo(({}) => {
     return (
         <div className="flex items-center justify-center flex-col gap-8">
 
-            <RainbowLoader/>
+            <div className="flex items-center justify-evenly w-full">
+                <RainbowLoader/>
+
+                <AcrobaticLoader />
+            </div>
 
             <div className="flex gap-3">
                 <StandardButton>Standard</StandardButton>

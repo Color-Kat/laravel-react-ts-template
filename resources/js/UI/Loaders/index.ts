@@ -1,5 +1,7 @@
-import './Loader.scss';
+import './rainbow-loader.scss';
+import './acrobatic-loader.scss';
 
-export {Loader} from './Loader.tsx';
-export {RainbowLoader} from './RainbowLoader.tsx';
-export {LoadingMessage} from './LoadingMessage.tsx';
+export {Loader} from './Loader';
+export {RainbowLoader} from './RainbowLoader';
+export {LoadingMessage} from './LoadingMessage';
+export {AcrobaticLoader} from './AcrobaticLoader';
