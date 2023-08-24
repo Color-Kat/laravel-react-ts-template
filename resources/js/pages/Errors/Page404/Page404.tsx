@@ -2,12 +2,19 @@ import {BsArrowLeft} from "react-icons/bs";
 import {useBack} from "@hooks/navigation.ts";
 
 import illustration_404 from '../assets/404.png';
+import {Helmet} from "react-helmet";
+import React from "react";
 
 export const Page404 = () => {
     const back = useBack();
 
     return (
         <div className="max-w-screen-xl h-full mx-auto px-4 flex items-center justify-start md:px-8">
+            <Helmet>
+                <title>Страница не найдена - 404</title>
+                <link rel="canonical" href={import.meta.env.VITE_APP_URL + '/404'}/>
+            </Helmet>
+
             <div
                 className="max-w-lg mx-auto flex-1 flex-row-reverse gap-12 items-center justify-between md:max-w-none md:flex">
                 <div className="flex-1 max-w-lg">
