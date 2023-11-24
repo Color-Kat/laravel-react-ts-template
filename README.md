@@ -26,3 +26,32 @@
 
 #### Tailwind tricks
 `bg-gdray-900` + `<div className="absolute inset-0 max-w-md mx-auto h-72 blur-[118px]" style={{ background: "linear-gradient(152.92deg, rgba(192, 132, 252, 0.2) 4.54%, rgba(232, 121, 249, 0.26) 34.2%, rgba(192, 132, 252, 0.1) 77.55%)" }}></div>`
+
+### Cool Tools
+Collection of tools - Undesign
+https://undesign.learn.uno/
+
+Blob generator
+https://www.blobmaker.app/?ref=undesign
+
+Svg backgrounds
+https://www.svgbackgrounds.com/set/free-svg-backgrounds-and-patterns/
+
+Tailwind CSS components
+https://preline.co/index.html
+https://flowrift.com/c/stats
+
+A lot of illustrations!!!
+https://undraw.co/illustrations?ref=undesign
+
+3D illustrations
+https://www.isometriclove.com/?ref=undesign
+
+Select project colors together
+https://color.hailpixel.com/
+
+Gradients
+https://gradient.page/css/ui-gradients
+
+Game interfaces
+https://interfaceingame.com/
